@@ -2,7 +2,7 @@ package builder;
 
 public class GameCharacter {
     private String name;
-    private String characterClass;
+    private String сlass;
     private String weapon;
     private String armor;
     private int level;
@@ -11,8 +11,8 @@ public class GameCharacter {
     public void setName(String name){
         this.name = name;
     }
-    public void setCharacterClass(String characterClass){
-        this.characterClass = characterClass;
+    public void setClass(String сlass){
+        this.сlass = сlass;
     }
     public void setWeapon(String weapon){
         this.weapon = weapon;
