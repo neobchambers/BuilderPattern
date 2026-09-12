@@ -26,5 +26,12 @@ public class GameCharacter {
     public void setSkills(String skills){
         this.skills = skills;
     }
-
+    public void showInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Class: " + сlass);
+        System.out.println("Weapon: " + weapon);
+        System.out.println("Armor: " + armor);
+        System.out.println("Level: " + level);
+        System.out.println("Skills: " + skills);
+    }
 }
