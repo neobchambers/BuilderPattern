@@ -7,7 +7,7 @@ public class HealerBuilder extends GameCharacterBuilder {
     }
     public HealerBuilder(){
         setClass("Healer");
-        setArmor("light Armor");
+        setArmor("Light Armor");
         setSkills("Healing");
         setWeapon("Staff");
 
